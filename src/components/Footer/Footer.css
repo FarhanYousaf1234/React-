@@ -1,0 +1,23 @@
+.footer {
+    background-color: #343a40; /* Dark background for footer */
+    padding: 20px;
+    color: #f8f9fa; /* Light text color */
+    text-align: center;
+    animation: slideUp 1s ease-in-out;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
